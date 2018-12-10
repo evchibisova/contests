@@ -1,9 +1,0 @@
-2
-12345678
-123456789
-2
-+1 (234) XXXXX - USA SomeCell
-+1 (23) XXXXX - Canada AnotherCell
-
-+1 (23) 45678 - Canada AnotherCell
-+1 (234) 56789 - USA SomeCell
