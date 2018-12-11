@@ -38,7 +38,4 @@ def solution(s):
     result = result[:-1]    # delete last \n
     return result
 
-with open("input.txt", "r") as data:
-    print(solution(data.read()))
-    # with open("output.txt", "w") as output_data:
-    #     output_data.write(solution(data.read()))
+

@@ -15,9 +15,10 @@ class TestSolution(unittest.TestCase):
         self.assertEqual(task_tel_nums.solution(inp), outp, msg="Yandex case 2 failed")
 
     def test_number_parser(self):
-        number = task_tel_nums.numbers_parser(["+1 (342)3  -3n"])
+        number = task_tel_nums.numbers_parser(["+1 (342)3  -3"])[0]
         for i in number:
-            self.assertTrue(i.isdigit(), msg="There is no digit in a number")
+            with self.subTest(i=i):
+                self.assertTrue(i.isdigit(), msg="{} is not a digit".format(i))
 
     # def test_something(self):
     #     inp, outp = self.setup_from_file("test_yandex_2.txt")
