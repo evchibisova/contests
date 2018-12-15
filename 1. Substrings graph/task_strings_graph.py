@@ -20,8 +20,3 @@ def make_pairs_list(string_list):
             else:
                 d[pair] += 1
     return d, len(tops_set)
-
-inp = '''2
-aaaaaaaaaaaaa
-aaabbbaaabbba'''
-print(solution(inp))
